@@ -99,7 +99,7 @@
         <div id="weather">
             <?php
                 if($weather) {
-                    echo '<div class="alert alert-succes text-white" role="alert">' . $weather . '</div>';
+                    echo '<div class="alert alert-success" role="alert">' . $weather . '</div>';
                 } 
                 else if($error) {
                     echo '<div class="alert alert-danger" role="alert">' . $error . '</div>';
